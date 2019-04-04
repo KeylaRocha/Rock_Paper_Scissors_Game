@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title = Rock Paper Scissors game></title>
+    <link rel = "stylesheet" href = "styles.css">
+  </head>
+  <body>
+
+    <header>
+      <H1>Rock Paper Scissors</H1>
+    </header>
+
+    <div class = "score-board">
+      <div id = "user-label" class = "badge">User</div>
+      <div id = "bot-label" class = "badge">Bot</div>
+      <span id = "user-score">0</span> : <span id = "bot-score">0</span>
+    </div>
+
+    <div class = "result">
+    <p>Paper covers Rock. You win!</p>
+    </div>
+
+    <div class = "choices">
+      <div class = "choice" id = "rk">
+        <img src = "images/Rock.png" alt = "Rock image" height = "100">
+      </div>
+      <div class = "choice" id = "pp">
+        <img src = "images/Paper.png" alt = "Paper image" height = "100">
+      </div>
+      <div class = "choice" id = sc>
+        <img src = "images/Scissors.png" alt = "Scissors image" height = "100">
+      </div>
+    </div>
+
+    <p id = "action-message">Make your move</p>
+    <script src = "app.js" charset="utf-8"></script>
+  </body>
+</html>
